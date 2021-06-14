@@ -134,4 +134,4 @@ class VM {
   }
 }
 
-module.exports = VM;
+export default VM;

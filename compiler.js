@@ -132,4 +132,4 @@ class Compiler {
   }
 }
 
-module.exports = Compiler;
+export default Compiler;

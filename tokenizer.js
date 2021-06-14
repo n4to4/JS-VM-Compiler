@@ -100,7 +100,7 @@ class Tokenizer {
   }
 }
 
-module.exports = {
+export {
   Tokenizer,
   Token,
 };

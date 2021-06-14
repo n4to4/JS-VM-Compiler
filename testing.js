@@ -1,7 +1,7 @@
-const { Tokenizer } = require("./tokenizer");
-const Parser = require("./parser");
-const Compiler = require("./compiler");
-const VM = require("./vm");
+import { Tokenizer } from "./tokenizer.js";
+import Parser from "./parser.js";
+import Compiler from "./compiler.js";
+import VM from "./vm.js";
 
 var input =
   "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.";

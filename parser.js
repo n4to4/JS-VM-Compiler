@@ -1,4 +1,4 @@
-var { Token } = require("./tokenizer");
+import { Token } from "./tokenizer.js";
 
 /**
  * Represents One AST Node
@@ -305,4 +305,4 @@ class Parser {
   }
 }
 
-module.exports = Parser;
+export default Parser;
